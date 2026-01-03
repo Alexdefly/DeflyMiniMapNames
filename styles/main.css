@@ -1,0 +1,14 @@
+.teammateName {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    margin-bottom: 1px;
+
+    font-size: 7px;
+    line-height: 1;
+    color: white;
+    white-space: nowrap;
+    pointer-events: none;
+    text-shadow: 0 0 2px black;
+}
