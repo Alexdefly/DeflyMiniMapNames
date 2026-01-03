@@ -1,0 +1,15 @@
+{
+  "name": "MiniMap",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "type": "replacement",
+  "replacements": [
+    "expressions/players.json"
+  ],
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "stylesheets": [
+    "styles/main.css"
+  ]
+}
