@@ -1,4 +1,4 @@
 {
-    "expression": "/;for\\(var ([A-z]+) in ([A-z]+)\\){if\\(([^&]+)&&([^=]+)==([A-z]+)([^<]+)([^}]+)<\\/div>'/ui",
-    "replacement": ";window.teammates=$2;for(var $1 in $2){if($3&&$4==$5$6$7'+(window.loadPlayerToMinimap&&window.loadPlayerToMinimap($1))||''+'</div>'"
+  "expression": "/;for\\(var ([A-z]+) in ([A-z]+)\\){if\\(([^&]+)&&([^=]+)==([A-z]+)([^<]+)([^}]+)<\\/div>'/ui",
+  "replacement": ";window.teammates=$2;for(var $1 in $2){if($3&&$4==$5$6$7'+((window.loadPlayerToMinimap&&window.loadPlayerToMinimap($1))||'')+'</div>'"
 }
